@@ -1,0 +1,174 @@
+/*navbar css*/
+.navbar,.navbar-brand{
+    padding:0;
+}
+header{
+    background-color: #F0AB8D;
+    margin:0 0 1px 0;
+    padding: 3px 0;
+}
+.btn-dark{
+    background-color: #240747;
+}
+/*end of navbar css*/
+/*page title css*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 68px;
+    color: #FFFFFF;
+    background-color: #F0AB8D;
+    text-align: center;
+    margin:0;
+    padding: auto;
+}
+/*end of page title css*/
+/*sports css*/
+section{
+    background-color: #F0AB8D;
+    margin:0 0 1px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 1rem 0;
+    width: auto;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #240747;
+    font-size: 34px;
+    margin: 10px 0;
+    padding: 10px 0;
+    width: auto;
+}
+p{
+    margin: 0;
+    font-family: helvetica;
+    font-size: 14px;
+    color: #000000;
+    width: 500px;
+    height:auto;
+}
+.ImgSport{
+    height: 276px;
+    width: 341px;
+    border: 2pt solid #AAAAAA;
+    border-radius: 6px;
+    display: inline;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.float_left{
+    float: left;
+    margin: 0 6rem 0 0;
+}
+.float_right{
+    float: right;
+}
+/*end of sports css section*/
+/*footer css*/
+footer{
+    background-color: #F0AB8D;
+}
+.footer{
+    padding:0;
+    color:#240747;
+    display:flex;
+    margin: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footerHeading{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.footer h2{
+    font-size: 25px;
+}
+.social{
+margin-bottom: 5px;
+width: 25px;
+height: 25px;
+}
+#footerEmail{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left:0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#emailSubmit{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color:#ffffff;
+    background-color: #240747;
+}
+.footer a:link{
+    color:#240747;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+/*end of footer css*/
+@media(max-width:1000px){
+    .sport{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 1rem 0;
+    width: 80%;
+    }
+    .sportDesc{
+        margin: 0 0 2rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    p{
+        width: auto;
+    }
+    .float_right, .float_left{
+        margin: 1rem 0 0 0;
+    }
+    .footer h2{
+        font-size: 20px;
+    }
+}
+@media(max-width:450px){
+    .sport{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 1rem 0;
+    width: auto;
+    }
+    .sportDesc{
+        margin: 0 0 2rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    p{
+        width: auto;
+    }
+    .float_right, .float_left{
+        margin: 1rem 0 0 0;
+    }
+    .ImgSport{
+        width: 80%;
+        height:auto;
+    }
+}

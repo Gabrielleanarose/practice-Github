@@ -1,0 +1,162 @@
+
+/*header*/
+.navbar,.navbar-brand{
+    padding:0;
+}
+header{
+    background-color: #F0AB8D;
+    margin:0 0 1px 0;
+    padding: 3px 0;
+}
+.btn-dark{
+    background-color: #240747;
+}
+/*end of header*/
+
+/*start of main*/ 
+/*colour and title*/
+body{
+    background-color: #F0AB8D;
+}
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.ptitle, h1  {
+    text-align: center;
+}
+h1,h4{
+    color:#ffffff;
+}
+.ptitle, h2,h3, .articleauthor {
+    color:#240747;
+}
+/*end of color & title*/
+
+/*news section*/
+.newssection{
+    margin: 30px;
+    padding-top: 10px;
+    border-bottom: #ffffff;
+}
+.newsbox{
+    background-color:rgba(225,225,225,0.3);
+}
+.storyheadlines{
+    color: black;
+    font-weight: bold;
+}
+
+.newsboxone:hover {
+    background-color: rgba(225,225,225,0.6);
+}
+
+.newsboxtwo:hover{
+    background-color:rgba(225,225,225,0.6) ;
+}
+
+.newsboxthree:hover{
+    background-color:rgba(225,225,225,0.6) ;
+}
+/*end of news section*/
+
+/* start of tables section*/
+.tablessection{
+    padding-bottom: 50px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    border-bottom: 1px solid #ffffff;
+}
+tr:hover{
+    background-color: rgba(36,7,71,0.3);
+}
+caption{
+    caption-side: top;
+    color: #240747;
+    font-weight: bold;
+}
+/*end of table section*/
+
+/*start of article section*/
+.articleseciotn{
+padding-top: 100px;
+border:10px #ffffff;
+}
+#myImage{
+    width:60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h4, .articleauthor{
+    text-align: center;
+}
+
+div.text{
+    border: 15px white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/*footer css*/
+footer{
+    background-color: #F0AB8D;
+}
+.footer{
+    padding:0;
+    color:#240747;
+    display:flex;
+    margin: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footerHeading{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.footer h2{
+    font-size: 25px;
+}
+.social{
+margin-bottom: 5px;
+width: 25px;
+height: 25px;
+}
+#footerEmail{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left:0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#emailSubmit{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color:#ffffff;
+    background-color: #240747;
+}
+.footer a:link{
+    color:#240747;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+/*end of footer css*/
